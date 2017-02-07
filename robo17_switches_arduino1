@@ -26,7 +26,7 @@ void loop() {
   digitalWrite(temp2, HIGH); //POSSIBLE ISSUE
   digitalWrite(temp3, HIGH); //POSSIBLE ISSUE
   
-//toggle3 and temp1, temp2, and temp3 have possible issue with constant power
+//toggle3 and temp1, temp2, and temp3 have possible issue with constant power. Might need to change wiring. 
 //DO NOT CHANGE CODE OR WIRING FOR toggle1 OR toggle2
-
+//WIRING NOTES--DO NOT use a 5V with functions from pins(13,12,11) WILL BURN OUT!!!!!!!!!
 }
