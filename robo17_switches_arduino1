@@ -1,29 +1,32 @@
-int toggle1 = 13;
-int toggle2 = 12;
-int temp1 = 11;
-int temp2 = 10;
-int toggle3 = 9;
-int temp3 = 8;
+int toggle1 = 13; //correct code; keep
+int toggle2 = 12; //correct code; keep
+int temp1 = 11; //not working;
+int temp2 = 10; //not working;
+int toggle3 = 9; //not working;
+int temp3 = 8; //not working;
 
 void setup() {
   // 
-  pinMode(toggle1, OUTPUT);
-  pinMode(toggle2, OUTPUT);
-  pinMode(toggle3, OUTPUT);
-  pinMode(temp1, OUTPUT);
-  pinMode(temp2, OUTPUT);
-  pinMode(temp3, OUTPUT);
+  pinMode(toggle1, OUTPUT); //correct
+  pinMode(toggle2, OUTPUT); //correct
+  pinMode(toggle3, OUTPUT); //incorrect
+  pinMode(temp1, OUTPUT); //incorrect
+  pinMode(temp2, OUTPUT); //incorrect
+  pinMode(temp3, OUTPUT); //incorrect
 
+//changing incorrect code on lines 12-15 to INPUT has no possitive or apparent affect
 }
 
 void loop() {
   //
-  digitalWrite(toggle1, HIGH);
-  digitalWrite(toggle2, HIGH);
-  digitalWrite(toggle3, HIGH);
-  digitalWrite(temp1, HIGH);
-  digitalWrite(temp2, HIGH);
-  digitalWrite(temp3, HIGH);
+  digitalWrite(toggle1, HIGH); //correct
+  digitalWrite(toggle2, HIGH); //POSSIBLE ISSUE
+  digitalWrite(toggle3, HIGH); //POSSIBLE ISSUE
+  digitalWrite(temp1, HIGH); //POSSIBLE ISSUE
+  digitalWrite(temp2, HIGH); //POSSIBLE ISSUE
+  digitalWrite(temp3, HIGH); //POSSIBLE ISSUE
   
+//toggle3 and temp1, temp2, and temp3 have possible issue with constant power
+//DO NOT CHANGE CODE OR WIRING FOR toggle1 OR toggle2
 
 }
