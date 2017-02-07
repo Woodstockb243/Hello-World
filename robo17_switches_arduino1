@@ -1,0 +1,29 @@
+int toggle1 = 13;
+int toggle2 = 12;
+int temp1 = 11;
+int temp2 = 10;
+int toggle3 = 9;
+int temp3 = 8;
+
+void setup() {
+  // 
+  pinMode(toggle1, OUTPUT);
+  pinMode(toggle2, OUTPUT);
+  pinMode(toggle3, OUTPUT);
+  pinMode(temp1, OUTPUT);
+  pinMode(temp2, OUTPUT);
+  pinMode(temp3, OUTPUT);
+
+}
+
+void loop() {
+  //
+  digitalWrite(toggle1, HIGH);
+  digitalWrite(toggle2, HIGH);
+  digitalWrite(toggle3, HIGH);
+  digitalWrite(temp1, HIGH);
+  digitalWrite(temp2, HIGH);
+  digitalWrite(temp3, HIGH);
+  
+
+}
